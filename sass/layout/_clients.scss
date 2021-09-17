@@ -8,14 +8,14 @@
   display: flex;
 }
 
-.clients-item {
+.clients-list__item {
   margin-right: 30px;
   &:last-child {
     margin-right: 0;
   }
 }
 
-.clients-link {
+.clients-list__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -33,14 +33,14 @@
   }
 }
 
-.clients-icon {
+.clients-list__icon {
   align-items: center;
   fill: #afb1b8;
 
   transition: fill 250ms var(--timing-function);
 
-  .clients-link:hover &,
-  .clients-link:focus & {
+  .clients-list__link:hover &,
+  .clients-list__link:focus & {
     fill: var(--accent-color);
   }
 }

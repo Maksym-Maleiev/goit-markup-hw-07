@@ -8,7 +8,7 @@
   display: flex;
 }
 
-.team-item {
+.team-list__item {
   margin-right: 30px;
   width: 270px;
 
@@ -27,7 +27,7 @@
   padding-bottom: 30px;
 }
 
-.content-title {
+.content__title {
   color: var(--title-text-color);
   margin-top: 0;
   margin-bottom: 10px;
@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-.content-subtitle {
+.content__subtitle {
   margin-top: 0;
   margin-bottom: 16px;
 

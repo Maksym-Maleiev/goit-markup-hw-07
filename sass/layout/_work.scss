@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.work-item {
+.work-list__item {
   display: inline-flex;
   position: relative;
   margin-right: 30px;
@@ -16,7 +16,7 @@
   }
 }
 
-.work-subtitle {
+.work-list__subtitle {
   position: absolute;
   bottom: 0;
 
